@@ -1,15 +1,32 @@
-﻿@page
+﻿@page 
 @model VehicleStockVolkswagen.Pages.Vehicles.IndexModel
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Stock List</h1>
 
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<form>
+    <p>
+        Search Make: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+        <select asp-for="VehicleBody" asp-items="Model.Body">
+            <option value="">Body</option>
+        </select>
+        <select asp-for="VehicleEngine" asp-items="Model.Engine">
+            <option value="">Engine</option>
+        </select>
+        <select asp-for="VehicleGear" asp-items="Model.Gear">
+            <option value="">Gear</option>
+        </select>
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
