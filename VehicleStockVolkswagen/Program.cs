@@ -1,7 +1,13 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using VehicleStockVolkswagen.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddDbContext<VehicleStockVolkswagenContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VehicleStockVolkswagenContext")));
 
 var app = builder.Build();
 

@@ -31,6 +31,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
