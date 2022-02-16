@@ -261,3 +261,4 @@ C:\NewsClipAssessment\VehicleStockVolkswagen\VehicleStockVolkswagen\obj\Debug\ne
 C:\NewsClipAssessment\VehicleStockVolkswagen\VehicleStockVolkswagen\obj\Debug\net6.0\ref\VehicleStockVolkswagen.dll
 C:\NewsClipAssessment\VehicleStockVolkswagen\VehicleStockVolkswagen\obj\Debug\net6.0\VehicleStockVolkswagen.pdb
 C:\NewsClipAssessment\VehicleStockVolkswagen\VehicleStockVolkswagen\obj\Debug\net6.0\VehicleStockVolkswagen.genruntimeconfig.cache
+C:\NewsClipAssessment\VehicleStockVolkswagen\VehicleStockVolkswagen\bin\Debug\net6.0\libman.json

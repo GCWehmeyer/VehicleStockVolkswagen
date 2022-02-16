@@ -1,5 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using VehicleStockVolkswagen.Data;
+using System;
+using System.Linq;
 
 namespace VehicleStockVolkswagen.Models
 {
@@ -18,11 +21,71 @@ namespace VehicleStockVolkswagen.Models
                 //Look for any vehicles
                 if (context.Vehicle.Any())
                 {
-                    return;                     //DB has been seeded
+                   return;                     //DB has been seeded
                 }
 
                 //Created seed data from https://www.vw.co.za/en/models-andconfigurator.html
-                context.Vehicle.AddRange(  
+                context.Vehicle.AddRange(
+                    new Vehicle
+                    {
+                        Make = "Golf",
+                        Model = "2021",
+                        Body = "Hatch",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 6,
+                        Price = 682700
+                    },
+                    new Vehicle
+                    {
+                        Make = "Polo",
+                        Model = "2021",
+                        Body = "Hatch",
+                        Engine = "Petrol",
+                        Gear = "Manual",
+                        Stock = 6,
+                        Price = 489400
+                    },
+                    new Vehicle
+                    {
+                        Make = "Polo",
+                        Model = "2021",
+                        Body = "Sedan",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 2,
+                        Price = 326700
+                    },
+                    new Vehicle
+                    {
+                        Make = "Polo",
+                        Model = "GTI",
+                        Body = "Hatch",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 5,
+                        Price = 489400
+                    },
+                    new Vehicle
+                    {
+                        Make = "Golf",
+                        Model = "GTI",
+                        Body = "Hatch",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 8,
+                        Price = 682700
+                    },
+                    new Vehicle
+                    {
+                        Make = "T-Cross",
+                        Model = "2021",
+                        Body = "SUV",
+                        Engine = "Petrol",
+                        Gear = "Manual",
+                        Stock = 4,
+                        Price = 407300
+                    },
                     new Vehicle
                     {
                         Make = "Polo",
@@ -46,7 +109,7 @@ namespace VehicleStockVolkswagen.Models
                     new Vehicle
                     {
                         Make = "Polo",
-                        Model = "Polo",
+                        Model = "2021",
                         Body = "Hatch",
                         Engine = "Petrol",
                         Gear = "Manual",
@@ -67,7 +130,7 @@ namespace VehicleStockVolkswagen.Models
                     {
                         Make = "T-Cross",
                         Model = "Comfortline",
-                        Body = "Sedan",
+                        Body = "SUV",
                         Engine = "Petrol",
                         Gear = "Manual",
                         Stock = 5,
@@ -84,6 +147,36 @@ namespace VehicleStockVolkswagen.Models
                         Price = 286900
                     },
                     new Vehicle
+                    {                   
+                        Make = "T-Cross",
+                        Model = "Highline",
+                        Body = "Hatch",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 4,
+                        Price = 443800
+                    },
+                    new Vehicle
+                    {
+                        Make = "T-Cross",
+                        Model = "R-line",
+                        Body = "Hatch",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 3,
+                        Price = 481700
+                    },
+                    new Vehicle
+                    {
+                        Make = "T-Roc",
+                        Model = "R-line",
+                        Body = "SUV",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 2,
+                        Price = 628900
+                    },
+                    new Vehicle
                     {
                         Make = "Polo",
                         Model = "Life",
@@ -92,6 +185,46 @@ namespace VehicleStockVolkswagen.Models
                         Gear = "Automatic",
                         Stock = 2,
                         Price = 350000
+                    },
+                    new Vehicle
+                    {
+                        Make = "Tiguan",
+                        Model = "2021",
+                        Body = "SUV",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 5,
+                        Price = 541800
+                    },
+                    new Vehicle
+                    {
+                        Make = "Tiguan Allspace",
+                        Model = "Trendline",
+                        Body = "SUV",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 3,
+                        Price = 572800
+                    },
+                    new Vehicle
+                    {
+                        Make = "Tiguan Allspace",
+                        Model = "Comfortline",
+                        Body = "SUV",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 2,
+                        Price = 656800
+                    },
+                    new Vehicle
+                    {
+                        Make = "Tiguan Allspace",
+                        Model = "Highline",
+                        Body = "SUV",
+                        Engine = "Petrol",
+                        Gear = "Automatic",
+                        Stock = 2,
+                        Price = 768900
                     },
                     new Vehicle
                     {
@@ -115,7 +248,7 @@ namespace VehicleStockVolkswagen.Models
                     }
 
 
-                    );
+                );
                 context.SaveChanges();
             }
         }
