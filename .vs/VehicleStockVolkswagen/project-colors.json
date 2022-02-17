@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f58a05c5-72fc-4ba0-a240-5dfbc4e9f4a6": {
+      "ProjectGuid": "f58a05c5-72fc-4ba0-a240-5dfbc4e9f4a6",
+      "DisplayName": "VehicleStockVolkswagen",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

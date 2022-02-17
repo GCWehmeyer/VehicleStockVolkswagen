@@ -23,17 +23,17 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
 
         public IList<Vehicle> Vehicle { get;set; }
         [BindProperty(SupportsGet = true)]
-        public string SearchString { get; set; }    //Search vehicle by text 
+        public string SearchString { get; set; }        //Search vehicle by text 
 
-        public SelectList Body { get; set;  }       //Search per body type
+        public SelectList Body { get; set;  }           //Search per body type
         [BindProperty(SupportsGet = true)]
         public string VehicleBody { get; set; }
 
-        public SelectList Engine { get; set; }        //Search per engine type
+        public SelectList Engine { get; set; }          //Search per engine type
         [BindProperty(SupportsGet = true)]
         public string VehicleEngine { get; set; }
 
-        public SelectList Gear { get; set; }        //Search per gear type
+        public SelectList Gear { get; set; }            //Search per gear type
         [BindProperty(SupportsGet = true)]
         public string VehicleGear { get; set; }
 

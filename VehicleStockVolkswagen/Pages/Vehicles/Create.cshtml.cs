@@ -20,7 +20,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
             _context = context;
         }
 
-        public IActionResult OnGet()
+        public IActionResult OnGet()        //Return create page
         {
             return Page();
         }
@@ -28,8 +28,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
         [BindProperty]
         public Vehicle Vehicle { get; set; }
 
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync()  //Creates new vehicle entry into database
         {
             if (!ModelState.IsValid)
             {
