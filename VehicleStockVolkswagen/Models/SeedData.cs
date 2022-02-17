@@ -245,6 +245,136 @@ namespace VehicleStockVolkswagen.Models
                         Gear = "Manual",
                         Stock = 2,
                         Price = 232500
+                    },
+                    new Vehicle
+                    {
+                        Make = "Touareg",
+                        Model = "Luxury",
+                        Body = "SUV",
+                        Engine = "Diesel",
+                        Gear = "Automatic",
+                        Stock = 2,
+                        Price = 1279700
+                    },
+                    new Vehicle
+                    {
+                        Make = "Touareg",
+                        Model = "Executive",
+                        Body = "SUV",
+                        Engine = "Diesel",
+                        Gear = "Automatic",
+                        Stock = 1,
+                        Price = 1559700
+                    },
+                    new Vehicle
+                    {
+                        Make = "Amarok",
+                        Model = "Double Cab Highline",
+                        Body = "Bakkie",
+                        Engine = "Diesel",
+                        Gear = "Manual",
+                        Stock = 5,
+                        Price = 751400
+                    },
+                    new Vehicle
+                    {
+                        Make = "Amarok",
+                        Model = "Double Cab Highline",
+                        Body = "Bakkie",
+                        Engine = "Diesel",
+                        Gear = "Automatic",
+                        Stock = 4,
+                        Price = 756500
+                    },
+                    new Vehicle
+                    {
+                        Make = "Amarok",
+                        Model = "Double Cab Extreme",
+                        Body = "Bakkie",
+                        Engine = "Diesel",
+                        Gear = "Automatic",
+                        Stock = 5,
+                        Price = 1057500
+                    },
+                    new Vehicle
+                    {
+                        Make = "Caddy",
+                        Model = "5-seater",
+                        Body = "Van",
+                        Engine = "Two-powered",
+                        Gear = "Manual",
+                        Stock = 3,
+                        Price = 484200
+                    },
+                    new Vehicle
+                    {
+                        Make = "Caddy",
+                        Model = "7-seater",
+                        Body = "Van",
+                        Engine = "Two-powered",
+                        Gear = "Manual",
+                        Stock = 3,
+                        Price = 600400
+                    },
+                    new Vehicle
+                    {
+                        Make = "Caddy",
+                        Model = "Kombi 5-seater",
+                        Body = "Van",
+                        Engine = "Two-powered",
+                        Gear = "Manual",
+                        Stock = 2,
+                        Price = 502700
+                    },
+                    new Vehicle
+                    {
+                        Make = "Caddy",
+                        Model = "Kombi 7-seater",
+                        Body = "Van",
+                        Engine = "Two-powered",
+                        Gear = "Manual",
+                        Stock = 4,
+                        Price = 412100
+                    },
+                    new Vehicle
+                    {
+                        Make = "Caddy",
+                        Model = "Cargo",
+                        Body = "Van",
+                        Engine = "Two-powered",
+                        Gear = "Manual",
+                        Stock = 5,
+                        Price = 404000
+                    },
+                    new Vehicle
+                    {
+                        Make = "Kombi 6.1",
+                        Model = "Treandline Plus",
+                        Body = "Van",
+                        Engine = "Diesel",
+                        Gear = "Automatic",
+                        Stock = 5,
+                        Price = 962700
+                    },
+                    new Vehicle
+                    {
+                        Make = "Caravelle 6.1",
+                        Model = "Highline",
+                        Body = "Van",
+                        Engine = "Diesel",
+                        Gear = "Automatic",
+                        Stock = 3,
+                        Price = 1255900
+                    },
+                    new Vehicle
+                    {
+                        Make = "Crafter",
+                        Model = "Panel",
+                        Body = "Van",
+                        Engine = "Diesel",
+                        Gear = "Automatic",
+                        Stock = 4,
+                        Price = 697700
                     }
 
 
