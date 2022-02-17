@@ -23,7 +23,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
         [BindProperty]
         public Vehicle Vehicle { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync(int? id)        //Receive the selected vehicle's data
         {
             if (id == null)
             {
@@ -39,7 +39,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int? id)
+        public async Task<IActionResult> OnPostAsync(int? id)       //Removes the vehicle selected
         {
             if (id == null)
             {

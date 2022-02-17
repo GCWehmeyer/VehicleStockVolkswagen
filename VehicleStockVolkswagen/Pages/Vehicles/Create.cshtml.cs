@@ -20,7 +20,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
             _context = context;
         }
 
-        public IActionResult OnGet()        //Return create page
+        public IActionResult OnGet()                    //Return create page
         {
             return Page();
         }

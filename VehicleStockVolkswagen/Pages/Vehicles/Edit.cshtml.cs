@@ -24,7 +24,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
         [BindProperty]
         public Vehicle Vehicle { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync(int? id)            //Receives selected vehicle's data
         {
             if (id == null)
             {
@@ -40,7 +40,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
             return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync()                  //Saves the changes made to the selected vehicle
         {
             if (!ModelState.IsValid)
             {
@@ -65,10 +65,10 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Index");                           //Return to stock list
         }
 
-        private bool VehicleExists(int id)
+        private bool VehicleExists(int id)                              //Function to check if vehicle exists
         {
             return _context.Vehicle.Any(e => e.ID == id);
         }
