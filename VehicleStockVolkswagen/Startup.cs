@@ -35,7 +35,7 @@ namespace VehicleStockVolkswagen
                 options.UseSqlite(Configuration.GetConnectionString("VehicleStockVolkswagenContext")));
         }
         #endregion
-    */
+        */
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
