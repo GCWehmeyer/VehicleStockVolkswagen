@@ -15,7 +15,7 @@ namespace VehicleStockVolkswagen.Pages
             _logger = logger;
         }
 
-        public string Stock { get; set; }
+        public string Stock { get; set; } = String.Empty;
 
         public void OnGet()
         {
