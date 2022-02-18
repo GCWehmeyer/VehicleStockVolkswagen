@@ -22,3 +22,9 @@ img {
     padding: 1px;
     display: block;
 }
+
+input {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+}

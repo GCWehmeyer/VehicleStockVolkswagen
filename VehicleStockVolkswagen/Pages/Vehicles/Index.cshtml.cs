@@ -39,6 +39,9 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
 
         public async Task OnGetAsync()
         {
+            var vehicles = from v in _context.Vehicle                       //receives searched vehicle makes
+                           select v;
+
             IQueryable<string> bodyQuery = from v in _context.Vehicle       //receives all body types from database
                                            orderby v.Body
                                            select v.Body;
@@ -51,8 +54,6 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
                                            orderby v.Gear
                                            select v.Gear;
 
-            var vehicles = from v in _context.Vehicle                       //receives searched vehicle makes
-                           select v;
 
             if (!string.IsNullOrEmpty(SearchString))
             {

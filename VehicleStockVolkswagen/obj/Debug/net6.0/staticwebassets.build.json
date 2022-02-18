@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kDOoPxojpwWKvfyaLXWIw0YXKcrDGVN2AN2sfueGSqk=",
+  "Hash": "+We0ToIBd0B8nKCVbiyeRWhiDLilwz/P/ClB3kIxDqE=",
   "Source": "VehicleStockVolkswagen",
   "BasePath": "_content/VehicleStockVolkswagen",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\NewsClipAssessment\\VehicleStockVolkswagen\\VehicleStockVolkswagen\\wwwroot\\images\\Logo.png",
+      "SourceId": "VehicleStockVolkswagen",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\NewsClipAssessment\\VehicleStockVolkswagen\\VehicleStockVolkswagen\\wwwroot\\",
+      "BasePath": "_content/VehicleStockVolkswagen",
+      "RelativePath": "images/Logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Logo.png"
+    },
+    {
+      "Identity": "C:\\NewsClipAssessment\\VehicleStockVolkswagen\\VehicleStockVolkswagen\\wwwroot\\images\\Title.jpg",
+      "SourceId": "VehicleStockVolkswagen",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\NewsClipAssessment\\VehicleStockVolkswagen\\VehicleStockVolkswagen\\wwwroot\\",
+      "BasePath": "_content/VehicleStockVolkswagen",
+      "RelativePath": "images/Title.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Title.jpg"
     },
     {
       "Identity": "C:\\NewsClipAssessment\\VehicleStockVolkswagen\\VehicleStockVolkswagen\\wwwroot\\js\\site.js",

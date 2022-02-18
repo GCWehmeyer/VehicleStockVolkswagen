@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using VehicleStockVolkswagen.Models;
 
 namespace VehicleStockVolkswagen.Pages
 {
@@ -11,6 +12,10 @@ namespace VehicleStockVolkswagen.Pages
         {
             _logger = logger;
         }
+
+        public IList<Vehicle> Vehicle { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string Stock { get; set; }        //Search vehicle stock
 
         public void OnGet()
         {
