@@ -19,94 +19,46 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Error.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuTW9iaWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Index.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguTW9iaWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Privacy.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5Nb2JpbGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Shared/_ValidationScriptsPartial.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuTW9iaWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Create.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcQ3JlYXRlLk1vYmlsZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Delete.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRGVsZXRlLk1vYmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Details.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRGV0YWlscy5Nb2JpbGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Edit.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcRWRpdC5Nb2JpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Vehicles/Index.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWNsZXNcSW5kZXguTW9iaWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/_ViewImports.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLk1vYmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/_ViewStart.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5Nb2JpbGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dr0r6qsjvg
-
-[C:/NewsClipAssessment/VehicleStockVolkswagen/VehicleStockVolkswagen/Pages/Shared/_Layout.Mobile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuTW9iaWxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-10pnnual6a
