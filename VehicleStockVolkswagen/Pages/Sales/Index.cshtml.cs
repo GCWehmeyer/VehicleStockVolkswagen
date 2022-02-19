@@ -24,22 +24,10 @@ namespace VehicleStockVolkswagen.Pages.Sales
         [BindProperty(SupportsGet = true)]
         public string Sales { get; set; } = String.Empty;
 
-        [BindProperty]
-        public Vehicle VehicleStock { get; set; }
-
-
         public async Task OnGetAsync()
         {
-            var vehicles = from v in _context.Vehicle                      //receives searched vehicle makes
+            var vehicles = from v in _context.Vehicle                      //receives searched vehicle makes or models
                            select v;
-
-            IEnumerable<int> sellStock = from s in _context.Vehicle
-                                         where s.Stock >= 0
-                                         select s.Stock;
-
-            IEnumerable<int> buyStock = from b in _context.Vehicle
-                                         where b.Stock >= 0
-                                         select b.Stock;
 
             if (!string.IsNullOrEmpty(Sales))
             {
@@ -48,38 +36,7 @@ namespace VehicleStockVolkswagen.Pages.Sales
 
             Vehicle = await vehicles.ToListAsync();
         }
+      
 
-        public async Task<IActionResult> OnPostAsync()
-        {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
-
-            _context.Attach(VehicleStock).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!StockExists(VehicleStock.ID))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return RedirectToPage("./Index");
-        }
-
-        private bool StockExists(int id)
-        {
-            return _context.Vehicle.Any(e => e.ID == id && e.Stock >= 0);
-        }
     }
 }

@@ -11,7 +11,7 @@
 
 <form>
     <p>&nbsp;</p>
-    <div class="text-center">
+    <div>
         <p> Find Make or Model: <input type="text" asp-for="Sales" />
             <input type="submit" value="Find" />
         </p>   
@@ -30,6 +30,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Vehicle[0].Stock)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehicle[0].Gear)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -45,8 +48,12 @@
                 @Html.DisplayFor(modelItem => item.Stock)
             </td>
             <td>
-                <input asp.for="Sales.Stock" type="button" value="Sold"/>
-                <input asp.for="Sales.Stock" type="button" value="Bought"/>
+                @Html.DisplayFor(modelItem => item.Gear)
+            </td>
+            <td>
+                <div>     
+                    <a asp-page="./Edit" asp-route-id="@item.ID">Stock Changes</a> |                
+                </div>               
             </td>
         </tr>
 }
