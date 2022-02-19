@@ -1,0 +1,58 @@
+﻿@page
+@model VehicleStockVolkswagen.Pages.Sales.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="text-center">
+    <h1 class="display-2">Vehicle Sales</h1>
+</div>
+
+<form>
+    <p>&nbsp;</p>
+    <div class="text-center">
+        <p> Find Make or Model: <input type="text" asp-for="Sales" />
+            <input type="submit" value="Find" />
+        </p>   
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehicle[0].Make)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehicle[0].Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehicle[0].Stock)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Vehicle) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Make)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                <input asp.for="Sales.Stock" type="button" value="Sold"/>
+                <input asp.for="Sales.Stock" type="button" value="Bought"/>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

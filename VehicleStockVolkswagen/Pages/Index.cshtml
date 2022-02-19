@@ -10,10 +10,19 @@
 <form>
     <p>&nbsp;</p>
     <div class="text-center">
-        <h1 class="display-4">Stock was sold</h1>
-        <p> Find Stock: <input type="text" asp-for="Stock" />
-            <input type="submit" value="Find" />
-            <input type="reset" />
-        </p>   
+        <h1 class="display-6">View</h1>
+        <p> Display the list of volkswagen vehicles available along with it's features.
+            Create, Edit, Delete or view details of each item.
+            <a asp-area="" asp-page="/Vehicles/Index">Stock</a>
+        </p>
+            
+        
+        <h1 class="display-6">Sell</h1>
+        <p> 
+            Display the vehicle make and model along with its stock.
+            Increase stock after one is sold.
+            <a asp-area="" asp-page="/Sales/Index">Sales</a> 
+        </p>          
+
     </div>
 </form>

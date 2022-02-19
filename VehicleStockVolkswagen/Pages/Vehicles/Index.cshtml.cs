@@ -48,7 +48,7 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
 
             IQueryable<string> engineQuery = from v in _context.Vehicle     //receives all engine types from database
                                              orderby v.Engine
-                                           select v.Engine;
+                                             select v.Engine;
 
             IQueryable<string> gearQuery = from v in _context.Vehicle       //receives all gear types from database
                                            orderby v.Gear
