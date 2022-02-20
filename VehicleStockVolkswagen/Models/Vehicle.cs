@@ -2,7 +2,8 @@
 
 namespace VehicleStockVolkswagen.Models
 {
-    public class Vehicle            //Vehicle class with it's attributes
+    //Vehicle class with it's attributes
+    public class Vehicle           
     {
         public int ID { get; set; }
 

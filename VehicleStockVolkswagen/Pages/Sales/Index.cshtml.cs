@@ -24,14 +24,15 @@ namespace VehicleStockVolkswagen.Pages.Sales
         [BindProperty(SupportsGet = true)]
         public string Sales { get; set; } = String.Empty;
 
+        //Search for vehicles in database
         public async Task OnGetAsync()
         {
-            var vehicles = from v in _context.Vehicle                      //receives searched vehicle makes or models
+            var vehicles = from v in _context.Vehicle                      
                            select v;
 
             if (!string.IsNullOrEmpty(Sales))
             {
-                vehicles = vehicles.Where(s => s.Make.Contains(Sales) || s.Model.Contains(Sales));
+                vehicles = vehicles.Where(s => s.Make.Contains(Sales) || s.Model.Contains(Sales));  //Receives searched vehicle ny make or model
             }
 
             Vehicle = await vehicles.ToListAsync();

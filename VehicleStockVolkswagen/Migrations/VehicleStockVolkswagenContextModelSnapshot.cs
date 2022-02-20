@@ -12,17 +12,19 @@ namespace VehicleStockVolkswagen.Migrations
     [DbContext(typeof(VehicleStockVolkswagenContext))]
     partial class VehicleStockVolkswagenContextModelSnapshot : ModelSnapshot
     {
+        //Build context model
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
-#pragma warning disable 612, 618
+        #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.2")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+            .HasAnnotation("ProductVersion", "6.0.2")
+            .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            //Create vehicle fields and ensure correct data types
             modelBuilder.Entity("VehicleStockVolkswagen.Models.Vehicle", b =>
-                {
+            {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
@@ -58,8 +60,8 @@ namespace VehicleStockVolkswagen.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Vehicle");
-                });
-#pragma warning restore 612, 618
+             });
+        #pragma warning restore 612, 618
         }
     }
 }

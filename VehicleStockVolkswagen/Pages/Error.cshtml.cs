@@ -19,6 +19,7 @@ namespace VehicleStockVolkswagen.Pages
             _logger = logger;
         }
 
+        //Return Error for identified record
         public void OnGet()
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;

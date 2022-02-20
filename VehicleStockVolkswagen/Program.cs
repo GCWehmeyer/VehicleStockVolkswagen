@@ -9,6 +9,7 @@ namespace VehicleStockVolkswagen
 {
     public class Program
     {
+        //Run the host for web page
         public static void Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
@@ -31,6 +32,7 @@ namespace VehicleStockVolkswagen
             host.Run();
         }
 
+        //Create the host for web page
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>

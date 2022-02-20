@@ -24,6 +24,7 @@ namespace VehicleStockVolkswagen.Pages.Sales
         [BindProperty]
         public Vehicle Vehicle { get; set; }
 
+        //Retreive data of specific record 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
@@ -40,13 +41,9 @@ namespace VehicleStockVolkswagen.Pages.Sales
             return Page();
         }
 
+        //Test input and save changes
         public async Task<IActionResult> OnPostAsync()
         {
-            /*if (!ModelState.IsValid)
-            {
-                return Page();
-            }*/
-
             _context.Attach(Vehicle).State = EntityState.Modified;
 
             try
@@ -68,6 +65,7 @@ namespace VehicleStockVolkswagen.Pages.Sales
             return RedirectToPage("./Index");
         }
 
+        //Function to test is data record exists
         private bool VehicleExists(int id)
         {
             return _context.Vehicle.Any(e => e.ID == id);

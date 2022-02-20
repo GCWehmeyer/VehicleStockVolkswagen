@@ -20,7 +20,8 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
             _context = context;
         }
 
-        public IActionResult OnGet()                    //Return create page
+        //Return create page
+        public IActionResult OnGet()                    
         {
             return Page();
         }
@@ -28,7 +29,8 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
         [BindProperty]
         public Vehicle Vehicle { get; set; }
 
-        public async Task<IActionResult> OnPostAsync()  //Creates new vehicle entry into database
+        //Creates new vehicle entry into database
+        public async Task<IActionResult> OnPostAsync()  
         {
             if (!ModelState.IsValid)
             {

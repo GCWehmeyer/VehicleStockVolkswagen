@@ -22,7 +22,8 @@ namespace VehicleStockVolkswagen.Pages.Vehicles
 
         public Vehicle Vehicle { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(int? id)            //Receives selected vehicle's data for display
+        //Receives selected record's data for display
+        public async Task<IActionResult> OnGetAsync(int? id)            
         {
             if (id == null)
             {

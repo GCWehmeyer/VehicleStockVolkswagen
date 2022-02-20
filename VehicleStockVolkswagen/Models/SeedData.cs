@@ -13,18 +13,19 @@ namespace VehicleStockVolkswagen.Models
             using (var context = new VehicleStockVolkswagenContext(
                 serviceProvider.GetRequiredService<DbContextOptions<VehicleStockVolkswagenContext>>()))
             {
+                //Test for data on context
                 if (context == null || context.Vehicle == null)
                 {
                     throw new ArgumentNullException("Null VehicleStockVolkswagenContext");
                 }
 
-                //Look for any vehicles
+                //Look for any records
                 if (context.Vehicle.Any())
                 {
                    return;                     //DB has been seeded
                 }
 
-                //Created seed data from https://www.vw.co.za/en/models-andconfigurator.html
+                //Add data to Seed database
                 context.Vehicle.AddRange(
                     new Vehicle
                     {
@@ -377,8 +378,8 @@ namespace VehicleStockVolkswagen.Models
                         Price = 697700
                     }
 
-
                 );
+                //Save Seed data to context
                 context.SaveChanges();
             }
         }

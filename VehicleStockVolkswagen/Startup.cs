@@ -17,6 +17,7 @@ namespace VehicleStockVolkswagen
 
         public IConfiguration Configuration { get; }
 
+        //Configure services for Razor pages and load database
         #region snippet_ConfigureServices
         public void ConfigureServices(IServiceCollection services)
         {
@@ -26,17 +27,8 @@ namespace VehicleStockVolkswagen
               options.UseSqlServer(Configuration.GetConnectionString("VehicleStockVolkswagenContext")));
         }
         #endregion
-        /*
-        #region snippet_UseSqlite
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddRazorPages();
-            services.AddDbContext<VehicleStockVolkswagenContext>(options =>
-                options.UseSqlite(Configuration.GetConnectionString("VehicleStockVolkswagenContext")));
-        }
-        #endregion
-        */
 
+        //Run configuration for Razor pages
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

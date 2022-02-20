@@ -6,6 +6,7 @@ namespace VehicleStockVolkswagen.Migrations
 {
     public partial class InitialCreate : Migration
     {
+        //Initial create of table with database fields
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -22,12 +23,14 @@ namespace VehicleStockVolkswagen.Migrations
                     Stock = table.Column<int>(type: "int", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
+                //Select Primary key
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Vehicle", x => x.ID);
                 });
         }
 
+        //Remove table of database
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
